@@ -33,5 +33,13 @@ public class InterruptedTest {
         System.out.println("第二次调用thread.interrupted()："
                 +thread.interrupted());
         System.out.println("thread是否存活："+thread.isAlive());
+        /**
+         * 最后总结，关于这三个方法，
+         * interrupt（）是给线程设置中断标志；
+         * interrupted（）是检测中断并清除中断状态；
+         * isInterrupted（）只检测中断。
+         * 还有重要的一点就是interrupted（）作用于当前线程，interrupt（）和isInterrupted（）作用于此线程，
+         * 即代码中调用此方法的实例所代表的线程。
+         */
     }
 }
