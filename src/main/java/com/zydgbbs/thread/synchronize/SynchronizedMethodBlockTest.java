@@ -13,7 +13,7 @@ public class SynchronizedMethodBlockTest {
     public void method1(){
         System.out.println("Method 1 start");
         try {
-            synchronized (this) {
+            synchronized (this) {//this可以换成(SynchronizedMethodBlockTest.class)类锁，具有类锁的功能
                 System.out.println("Method 1 execute");
                 Thread.sleep(3000);
             }
@@ -26,7 +26,7 @@ public class SynchronizedMethodBlockTest {
     public void method2(){
         System.out.println("Method 2 start");
         try {
-            synchronized (this) {
+            synchronized (this) {//this可以换成(SynchronizedMethodBlockTest.class)类锁，具有类锁的功能
                 System.out.println("Method 2 execute");
                 Thread.sleep(1000);
             }
