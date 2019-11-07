@@ -1,5 +1,8 @@
 package com.zydgbbs.thread.synchronize;
 
+/**
+ * synchronized的锁重入之二
+ */
 public class SynchronizedLockReentrant2Test {
     static class Main {
         public int i = 10;
