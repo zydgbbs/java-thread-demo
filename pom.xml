@@ -31,6 +31,13 @@
       <artifactId>spring-context</artifactId>
       <version>5.2.0.RELEASE</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core 用于java对象信息打印-->
+    <dependency>
+      <groupId>org.openjdk.jol</groupId>
+      <artifactId>jol-core</artifactId>
+      <version>0.9</version>
+    </dependency>
+
 
   </dependencies>
 
